@@ -112,7 +112,7 @@ class TestSuiteCli
       opts.on("--resolution FLOAT", "Resolution for graph ouput (default 1.0)") do |str|
         options[:resolution] = str.to_f
       end
-      opts.on("-g", "Gnuplot output graphing # of tests agains time to execute") do |bool|
+      opts.on("-g", "Gnuplot output graphing # of tests against time to execute") do |bool|
         options[:use_gnuplot] = bool
       end
       opts.on_tail("-h", "--help", "Display this screen") { puts opts ; exit }

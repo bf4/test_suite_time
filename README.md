@@ -12,7 +12,7 @@ Prerequisites:
 compile.rb [options] -r <repository>
     -r, --repository STR             Github repository, e.g. "procore/procore"
         --resolution FLOAT           Resolution for graph ouput (default 1.0)
-    -g                               Gnuplot output graphing # of tests agains time to execute
+    -g                               Gnuplot output graphing # of tests against time to execute
     -h, --help                       Display this screen
 ```
 
