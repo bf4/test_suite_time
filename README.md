@@ -3,8 +3,8 @@ Procore Test Suite Time
 
 ### Prerequisites:
 1. To generate the graph, you need `gnuplot`.  `brew install gnuplot`
-2. The repo must be set up to outut junit artifacts.  `procore/procore` is; Ididn't test anything else.
-3.  You must have an API key from CircleCI to access the above artifacts.  Put it in the `CIRCLE_ENV` environmental variable.
+2. The repo must be set up to outut junit artifacts.  `procore/procore` is; I didn't test anything else.
+3.  You must have an API key from CircleCI to access the above artifacts.  Put it in the `CIRCLE_TOKEN` environmental variable.
 
 ### Usage
 ```bash
